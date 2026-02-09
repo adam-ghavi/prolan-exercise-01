@@ -1,16 +1,16 @@
 class Calculator:
-    def add(self, a, b):
-        return a + b
-    def subtract(self, a, b):
-        return a - b
-    def multiply(self, a, b):
-        return a * b
-    def divide(self, a, b):
-        return a / b
-    def modulo(self, a, b):
-        return a % b
-    def power(self, a, b):
-        return a ** b
+    def add(self, var_satu, var_dua):
+        return var_satu + var_dua
+    def subtract(self, var_satu, var_dua):
+        return var_satu - var_dua
+    def multiply(self, var_satu, var_dua):
+        return var_satu * var_dua
+    def divide(self, var_satu, var_dua):
+        return var_satu / var_dua
+    def modulo(self, var_satu, var_dua):
+        return var_satu % var_dua
+    def power(self, var_satu, var_dua):
+        return var_satu ** var_dua
 
 if __name__ == "__main__":
     calc = Calculator()
